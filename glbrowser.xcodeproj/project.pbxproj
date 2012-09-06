@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B33B4C215F8EEBF0078CD16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B33B4C115F8EEBF0078CD16 /* UIKit.framework */; };
+		9B33B4C415F8EEBF0078CD16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B33B4C315F8EEBF0078CD16 /* Foundation.framework */; };
+		9B33B4C615F8EEBF0078CD16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B33B4C515F8EEBF0078CD16 /* CoreGraphics.framework */; };
+		9B33B4CC15F8EEBF0078CD16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B33B4CA15F8EEBF0078CD16 /* InfoPlist.strings */; };
+		9B33B4CE15F8EEBF0078CD16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B33B4CD15F8EEBF0078CD16 /* main.m */; };
+		9B33B4D215F8EEBF0078CD16 /* WKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B33B4D115F8EEBF0078CD16 /* WKAppDelegate.m */; };
+		9B33B4D515F8EEBF0078CD16 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B33B4D315F8EEBF0078CD16 /* MainStoryboard_iPhone.storyboard */; };
+		9B33B4D815F8EEBF0078CD16 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B33B4D615F8EEBF0078CD16 /* MainStoryboard_iPad.storyboard */; };
+		9B33B4DB15F8EEBF0078CD16 /* WKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B33B4DA15F8EEBF0078CD16 /* WKViewController.m */; };
+		9B33B4E315F8EEC00078CD16 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B33B4E215F8EEC00078CD16 /* SenTestingKit.framework */; };
+		9B33B4E415F8EEC00078CD16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B33B4C115F8EEBF0078CD16 /* UIKit.framework */; };
+		9B33B4E515F8EEC00078CD16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B33B4C315F8EEBF0078CD16 /* Foundation.framework */; };
+		9B33B4ED15F8EEC00078CD16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B33B4EB15F8EEC00078CD16 /* InfoPlist.strings */; };
+		9B33B4F015F8EEC00078CD16 /* glbrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B33B4EF15F8EEC00078CD16 /* glbrowserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B33B4E615F8EEC00078CD16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B33B4B415F8EEBF0078CD16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B33B4BC15F8EEBF0078CD16;
+			remoteInfo = glbrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B33B4BD15F8EEBF0078CD16 /* glbrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glbrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B33B4C115F8EEBF0078CD16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B33B4C315F8EEBF0078CD16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B33B4C515F8EEBF0078CD16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B33B4C915F8EEBF0078CD16 /* glbrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "glbrowser-Info.plist"; sourceTree = "<group>"; };
+		9B33B4CB15F8EEBF0078CD16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B33B4CD15F8EEBF0078CD16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B33B4CF15F8EEBF0078CD16 /* glbrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "glbrowser-Prefix.pch"; sourceTree = "<group>"; };
+		9B33B4D015F8EEBF0078CD16 /* WKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKAppDelegate.h; sourceTree = "<group>"; };
+		9B33B4D115F8EEBF0078CD16 /* WKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKAppDelegate.m; sourceTree = "<group>"; };
+		9B33B4D415F8EEBF0078CD16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		9B33B4D715F8EEBF0078CD16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		9B33B4D915F8EEBF0078CD16 /* WKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKViewController.h; sourceTree = "<group>"; };
+		9B33B4DA15F8EEBF0078CD16 /* WKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKViewController.m; sourceTree = "<group>"; };
+		9B33B4E115F8EEC00078CD16 /* glbrowserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glbrowserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B33B4E215F8EEC00078CD16 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9B33B4EA15F8EEC00078CD16 /* glbrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "glbrowserTests-Info.plist"; sourceTree = "<group>"; };
+		9B33B4EC15F8EEC00078CD16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B33B4EE15F8EEC00078CD16 /* glbrowserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glbrowserTests.h; sourceTree = "<group>"; };
+		9B33B4EF15F8EEC00078CD16 /* glbrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = glbrowserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B33B4BA15F8EEBF0078CD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B33B4C215F8EEBF0078CD16 /* UIKit.framework in Frameworks */,
+				9B33B4C415F8EEBF0078CD16 /* Foundation.framework in Frameworks */,
+				9B33B4C615F8EEBF0078CD16 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B33B4DD15F8EEC00078CD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B33B4E315F8EEC00078CD16 /* SenTestingKit.framework in Frameworks */,
+				9B33B4E415F8EEC00078CD16 /* UIKit.framework in Frameworks */,
+				9B33B4E515F8EEC00078CD16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B33B4B215F8EEBF0078CD16 = {
+			isa = PBXGroup;
+			children = (
+				9B33B4C715F8EEBF0078CD16 /* glbrowser */,
+				9B33B4E815F8EEC00078CD16 /* glbrowserTests */,
+				9B33B4C015F8EEBF0078CD16 /* Frameworks */,
+				9B33B4BE15F8EEBF0078CD16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B33B4BE15F8EEBF0078CD16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B33B4BD15F8EEBF0078CD16 /* glbrowser.app */,
+				9B33B4E115F8EEC00078CD16 /* glbrowserTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B33B4C015F8EEBF0078CD16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B33B4C115F8EEBF0078CD16 /* UIKit.framework */,
+				9B33B4C315F8EEBF0078CD16 /* Foundation.framework */,
+				9B33B4C515F8EEBF0078CD16 /* CoreGraphics.framework */,
+				9B33B4E215F8EEC00078CD16 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B33B4C715F8EEBF0078CD16 /* glbrowser */ = {
+			isa = PBXGroup;
+			children = (
+				9B33B4D015F8EEBF0078CD16 /* WKAppDelegate.h */,
+				9B33B4D115F8EEBF0078CD16 /* WKAppDelegate.m */,
+				9B33B4D315F8EEBF0078CD16 /* MainStoryboard_iPhone.storyboard */,
+				9B33B4D615F8EEBF0078CD16 /* MainStoryboard_iPad.storyboard */,
+				9B33B4D915F8EEBF0078CD16 /* WKViewController.h */,
+				9B33B4DA15F8EEBF0078CD16 /* WKViewController.m */,
+				9B33B4C815F8EEBF0078CD16 /* Supporting Files */,
+			);
+			path = glbrowser;
+			sourceTree = "<group>";
+		};
+		9B33B4C815F8EEBF0078CD16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B33B4C915F8EEBF0078CD16 /* glbrowser-Info.plist */,
+				9B33B4CA15F8EEBF0078CD16 /* InfoPlist.strings */,
+				9B33B4CD15F8EEBF0078CD16 /* main.m */,
+				9B33B4CF15F8EEBF0078CD16 /* glbrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B33B4E815F8EEC00078CD16 /* glbrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B33B4EE15F8EEC00078CD16 /* glbrowserTests.h */,
+				9B33B4EF15F8EEC00078CD16 /* glbrowserTests.m */,
+				9B33B4E915F8EEC00078CD16 /* Supporting Files */,
+			);
+			path = glbrowserTests;
+			sourceTree = "<group>";
+		};
+		9B33B4E915F8EEC00078CD16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B33B4EA15F8EEC00078CD16 /* glbrowserTests-Info.plist */,
+				9B33B4EB15F8EEC00078CD16 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B33B4BC15F8EEBF0078CD16 /* glbrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B33B4F315F8EEC00078CD16 /* Build configuration list for PBXNativeTarget "glbrowser" */;
+			buildPhases = (
+				9B33B4B915F8EEBF0078CD16 /* Sources */,
+				9B33B4BA15F8EEBF0078CD16 /* Frameworks */,
+				9B33B4BB15F8EEBF0078CD16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glbrowser;
+			productName = glbrowser;
+			productReference = 9B33B4BD15F8EEBF0078CD16 /* glbrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B33B4E015F8EEC00078CD16 /* glbrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B33B4F615F8EEC00078CD16 /* Build configuration list for PBXNativeTarget "glbrowserTests" */;
+			buildPhases = (
+				9B33B4DC15F8EEC00078CD16 /* Sources */,
+				9B33B4DD15F8EEC00078CD16 /* Frameworks */,
+				9B33B4DE15F8EEC00078CD16 /* Resources */,
+				9B33B4DF15F8EEC00078CD16 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B33B4E715F8EEC00078CD16 /* PBXTargetDependency */,
+			);
+			name = glbrowserTests;
+			productName = glbrowserTests;
+			productReference = 9B33B4E115F8EEC00078CD16 /* glbrowserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B33B4B415F8EEBF0078CD16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WK;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Kousuke Nagano";
+			};
+			buildConfigurationList = 9B33B4B715F8EEBF0078CD16 /* Build configuration list for PBXProject "glbrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B33B4B215F8EEBF0078CD16;
+			productRefGroup = 9B33B4BE15F8EEBF0078CD16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B33B4BC15F8EEBF0078CD16 /* glbrowser */,
+				9B33B4E015F8EEC00078CD16 /* glbrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B33B4BB15F8EEBF0078CD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B33B4CC15F8EEBF0078CD16 /* InfoPlist.strings in Resources */,
+				9B33B4D515F8EEBF0078CD16 /* MainStoryboard_iPhone.storyboard in Resources */,
+				9B33B4D815F8EEBF0078CD16 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B33B4DE15F8EEC00078CD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B33B4ED15F8EEC00078CD16 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B33B4DF15F8EEC00078CD16 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B33B4B915F8EEBF0078CD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B33B4CE15F8EEBF0078CD16 /* main.m in Sources */,
+				9B33B4D215F8EEBF0078CD16 /* WKAppDelegate.m in Sources */,
+				9B33B4DB15F8EEBF0078CD16 /* WKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B33B4DC15F8EEC00078CD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B33B4F015F8EEC00078CD16 /* glbrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B33B4E715F8EEC00078CD16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B33B4BC15F8EEBF0078CD16 /* glbrowser */;
+			targetProxy = 9B33B4E615F8EEC00078CD16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B33B4CA15F8EEBF0078CD16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B33B4CB15F8EEBF0078CD16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B33B4D315F8EEBF0078CD16 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B33B4D415F8EEBF0078CD16 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9B33B4D615F8EEBF0078CD16 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B33B4D715F8EEBF0078CD16 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9B33B4EB15F8EEC00078CD16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B33B4EC15F8EEC00078CD16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B33B4F115F8EEC00078CD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B33B4F215F8EEC00078CD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B33B4F415F8EEC00078CD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glbrowser/glbrowser-Prefix.pch";
+				INFOPLIST_FILE = "glbrowser/glbrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B33B4F515F8EEC00078CD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glbrowser/glbrowser-Prefix.pch";
+				INFOPLIST_FILE = "glbrowser/glbrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9B33B4F715F8EEC00078CD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/glbrowser.app/glbrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glbrowser/glbrowser-Prefix.pch";
+				INFOPLIST_FILE = "glbrowserTests/glbrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9B33B4F815F8EEC00078CD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/glbrowser.app/glbrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glbrowser/glbrowser-Prefix.pch";
+				INFOPLIST_FILE = "glbrowserTests/glbrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B33B4B715F8EEBF0078CD16 /* Build configuration list for PBXProject "glbrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B33B4F115F8EEC00078CD16 /* Debug */,
+				9B33B4F215F8EEC00078CD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B33B4F315F8EEC00078CD16 /* Build configuration list for PBXNativeTarget "glbrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B33B4F415F8EEC00078CD16 /* Debug */,
+				9B33B4F515F8EEC00078CD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B33B4F615F8EEC00078CD16 /* Build configuration list for PBXNativeTarget "glbrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B33B4F715F8EEC00078CD16 /* Debug */,
+				9B33B4F815F8EEC00078CD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B33B4B415F8EEBF0078CD16 /* Project object */;
+}
