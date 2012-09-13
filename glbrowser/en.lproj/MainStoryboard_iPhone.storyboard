@@ -18,14 +18,6 @@
                                     <outlet property="delegate" destination="2" id="Iea-uZ-xkm"/>
                                 </connections>
                             </webView>
-                            <textField translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" text="" id="AmA-Rf-2hy">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="nt8-R1-eeO"/>
-                                </constraints>
-                                <textInputTraits key="textInputTraits"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            </textField>
                             <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="l3t-6z-MyN">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back">
@@ -80,7 +72,7 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="db8-0A-VPv">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="45" id="jr0-7X-HBf"/>
+                                    <constraint firstAttribute="height" constant="30" id="V9q-Cf-RRF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Go">
@@ -105,16 +97,12 @@
                             <constraint firstAttribute="bottom" secondItem="l3t-6z-MyN" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="IOg-P3-SSk"/>
                             <constraint firstAttribute="bottom" secondItem="PVH-CS-zRo" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="LVe-YI-ozx"/>
                             <constraint firstAttribute="trailing" secondItem="db8-0A-VPv" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="MQp-7b-yv0"/>
-                            <constraint firstItem="AmA-Rf-2hy" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="MZI-iC-S7z"/>
-                            <constraint firstItem="db8-0A-VPv" firstAttribute="leading" secondItem="AmA-Rf-2hy" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="ONS-0L-jVL"/>
                             <constraint firstAttribute="bottom" secondItem="AJm-Uv-Ufw" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="V71-zn-K0g"/>
                             <constraint firstItem="PVH-CS-zRo" firstAttribute="leading" secondItem="ek6-wT-6PF" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="c14-FJ-aJJ"/>
                             <constraint firstAttribute="bottom" secondItem="ek6-wT-6PF" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="dpf-Dj-dHv"/>
                             <constraint firstItem="BBi-T1-JiL" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="e17-xH-8L3"/>
                             <constraint firstItem="db8-0A-VPv" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="gKI-nn-LEE"/>
-                            <constraint firstItem="AmA-Rf-2hy" firstAttribute="bottom" secondItem="db8-0A-VPv" secondAttribute="bottom" type="default" id="hYw-iE-6bK"/>
                             <constraint firstItem="l3t-6z-MyN" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="kb0-km-Epz"/>
-                            <constraint firstItem="AmA-Rf-2hy" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="zLX-Os-DmV"/>
                         </constraints>
                     </view>
                     <connections>
@@ -134,7 +122,6 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WKViewController.h"/>
             <relationships>
                 <relationship kind="action" name="openButtonPress:"/>
-                <relationship kind="outlet" name="webURL" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
             </relationships>
         </class>
